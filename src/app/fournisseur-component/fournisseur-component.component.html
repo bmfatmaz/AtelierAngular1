@@ -1,0 +1,12 @@
+<p>fournisseur-component works!</p>
+<div style="border: 1px solid red; " [hidden]="fournisseur.hide == true?true:false">
+    <ul>
+        <li>{{fournisseur.idFournisseur}}</li>
+        <li>{{fournisseur.code}}</li>
+        <li>{{fournisseur.libelle}}</li>
+      </ul>
+
+
+</div>
+<button (click)="hide()">Cacher</button>
+
