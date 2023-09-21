@@ -1,7 +1,7 @@
 export class Fournisseur {
-    idFournisseur?:number ;
-    code? : string;
-    libelle? :string ;
+    idFournisseur:number=0 ;
+    code: string="";
+    libelle :string ="";
     
     
   }
